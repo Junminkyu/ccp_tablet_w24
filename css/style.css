@@ -228,11 +228,7 @@ ul li{
   display:none;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .gif {
-    display: none;
-  }
-}
+
 
 @media screen and (min-width:750px){
   .introduction{
@@ -357,5 +353,18 @@ ul li{
   }
   div.destination .city{
     display:block;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gif {
+    display: none;
+  }
+  .destination img{
+    position:relative;
+    top:100px;
+  }
+  div.destination{
+    grid-template-rows: 200px 200px;
   }
 }
