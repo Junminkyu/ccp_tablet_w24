@@ -277,6 +277,10 @@ ul li{
     justify-content: space-around;
   }
 
+  div.grid figure{
+    margin-top:30px;
+  }
+
   div.like{
     margin-top:100px;
     display:grid;
