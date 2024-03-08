@@ -237,18 +237,18 @@ ul li{
   display:none;
 }
 
-button{
+.button{
   position:fixed;
   bottom:20px;
   right:30px;
-  width:150px;
-  height:75px;
+  width:90px;
+  height:35px;
   background-color:#cda400;
   display: inline-block;
   z-index: 1;
 }
 
-button a{
+.button{
   text-align: center;
   color:black;
   font-size: large;
@@ -256,10 +256,13 @@ button a{
 }
 
 
-button a:visited, button a:link{
+a:visited,a:link{
   text-decoration: none;
 }
 
+a:hover {
+  background-color: #8e782b;
+}
 
 
 img, video{
