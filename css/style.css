@@ -228,7 +228,37 @@ ul li{
   display:none;
 }
 
+button{
+  position:fixed;
+  bottom:20px;
+  right:30px;
+  width:150px;
+  height:75px;
+  background-color:#cda400;
+  display: inline-block;
+}
 
+button a{
+  text-align: center;
+  color:white;
+  font-size: large;
+  padding:30px 15px;
+}
+
+
+button a:visited, button a:link{
+  text-decoration: none;
+}
+
+
+
+img, video{
+  transition: all .3s ease;
+}
+
+img:hover, video:hover{
+  transform:translateY(-10px);
+}
 
 @media screen and (min-width:750px){
   .introduction{
