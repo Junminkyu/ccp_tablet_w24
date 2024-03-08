@@ -25,6 +25,11 @@ body{
     font-family: Arial, sans-serif;
 }
 
+.city{
+  display: block;
+  grid-template-columns: 1fr 1fr;
+}
+
 .skip{
     position: absolute;
     left: -5000px;
