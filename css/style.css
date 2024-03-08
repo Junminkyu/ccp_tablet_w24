@@ -205,6 +205,10 @@ div.grid.travel{
   grid-template-columns: 1fr;
   grid-template-rows:400px 400px 400px 400px 400px;
 }
+
+div.grid figure{
+  margin-top:30px;
+}
 div.grid.recipe{
   grid-template-columns: 1fr;
   grid-template-rows:400px 400px 400px;
@@ -236,6 +240,7 @@ button{
   height:75px;
   background-color:#cda400;
   display: inline-block;
+  z-index: 1;
 }
 
 button a{
@@ -303,9 +308,6 @@ img:hover, video:hover{
     justify-content: space-around;
   }
 
-  div.grid figure{
-    margin-top:30px;
-  }
 
   div.like{
     margin-top:100px;
